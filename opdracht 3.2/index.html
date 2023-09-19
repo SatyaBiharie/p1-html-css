@@ -1,11 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <form action="">
+        <div>
+            <label for="firstName">Naam</label>
+            <input type="text" name="firstName">
+        </div> <br>
+
+        <div>
+            <label for="surname">achternaam</label>
+            <input type="text" name="surname">
+        </div> <br>
+
+        <div>
+            <label for="age">leeftijd</label>
+            <input type="number" name="age">
+        </div> <br>
+
+        <div>
+            <label for="">man</label>
+            <input type="radio" name="gender" value="man" checked>
+
+            <label for="">vrouw</label>
+            <input type="radio" name="gender" value="vrouw">
+            <div> <br>
+
+                <label for="text">straat met huisnummer</label>
+                <input type="text" name="straatnaam en huisnummer">
+            </div> <br>
+
+            <div>
+                <label for="text">postcode</label>
+                <input type="text" name="postcode">
+            </div> <br>
+
+            <div>
+                <label for="text">Stad</label>
+                <input type="text" name="Stad">
+            </div> <br>
+
+            <div>
+                <label for="text">Land</label>
+                <input type="text" name="Land">
+            </div> <br>
+
+            <div>
+                <label for="text">BSN-nummer</label>
+                <input type="text" name="BSN-nummer" maxlength="9">
+            </div> <br>
+
+            <div>
+                <label for="Landen">Kies je bestemming:</label>
+
+                <select name="Landen" id="Landen">
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Amerika">Amerika</option>
+                    <option value="Noorwegen">Noorwegen</option>
+                    <option value="India">India</option>
+                </select>
+            </div> <br>
+
+            <div>
+                <label for=" datum van vertrek">datum van vertrek</label>
+                <input type="date" id=datemin name=datemin min="19-09-2023">
+
+            </div> <br>
+
+            <div>
+                <label for="datum van terugkomst">datum van terugkomst</label>
+                <input type="date" id="datemax" name="datemax" max="19-10-2023">
+            </div> <br>
+
+            <div>
+                <label for="aantal reisgenoten">aantal reisgenoten</label>
+                <input type="number" max="4" min="1">
+            </div> <br>
+
+            <div>
+                <label for="email">email</label>
+                <input type="text">
+            </div> <br>
+
+            <div>
+                <label for="wachtwoord">wachtwoord</label>
+                <input type="password">
+            </div> <br>
+
+
+
+            <input type="submit" value="verzenden" name="submitform">
+        </div>
+
+
+    </form>
 </body>
+
 </html>
