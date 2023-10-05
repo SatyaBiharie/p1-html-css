@@ -29,7 +29,7 @@ h3 {
 }
 
 p {
-    color: #4d4d4d;
+    color:black;
 }
 
 a {
@@ -41,7 +41,9 @@ a {
     font-weight: bold;
 }
 
-.header {
+
+
+header {
     background-image:url("./img/Geometric.png");
     background-size: cover;
     background-position: center;
@@ -49,16 +51,20 @@ a {
     text-align: center;
     color: white;
     font-size: 30px;
-    height: 100px;
-}
-
-header {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: large;
+    height: 33vh;
 
 }
 
 img{
-    
+ width: 50vw;   
 }
+
+article {
+    
+    border: solid 2px blue;
+    border-radius: 5px;
+    border-left: solid blue 10px
+  }
+
+
+  
