@@ -22,8 +22,6 @@ nav {
     margin: auto;
     background: #00a8c7;
     justify-content: space-between;
-    position: fixed;
-    z-index: 2;
 }
 
 nav ul {
@@ -53,10 +51,7 @@ background-size: cover;
 }
 .second{
     text-align: center;
-    color: rgb(255, 255, 255);
-    top: 45rem;
-    position: relative;
-    font-size: 50px;
+    color: white;
 }
 .gokublack1{
     background-color: black;
@@ -68,70 +63,7 @@ footer{
     height: 5rem;
     font-size: 20px;
     font-family: "Goldman";
-    position: absolute;
-    width: 100vw;
-    top: 69.6rem;
-    color: white;
 }
 h1{
     font-weight: bold;
-
-    text-align: center;
-}
-
-body{
-position: absolute;
-min-height: 100vh;
-}
-footer p{
-margin-top: 10px;
-}
-.htmlc{
-    height: 15vh;
-}
-.html{
-    height: auto;
-    width: 50rem;
-    float: left;
-    margin-left: 20rem;
-}
-.right{
-    float: right;
-    width: 30rem;
-    margin: 0rem 25rem 0 12rem;
-    font-size: 20px;
-    height: 5rem;
-}
-.h1fix{
-    margin-top: 14rem;
-    width: 100vw;
-    font-size: 5rem;
-}
-.hc{
-    color:orangered
-}
-.cc{
-    color: blue;
-}
-.pc{
-    color: rgb(135, 104, 207);
-}
-.left
-{float: left;
-width: 30rem;
-margin: 0rem 12rem 0 25rem;
-font-size: 20px;
-height: 5rem;
-}
-.kys{
-    height: auto;
-    width: 35rem;
-    float: right;
-    margin-right: 20rem;
-}
-.jc{
-    color: yellow;
-}
-.sqlc{
-    color: orange;
 }
